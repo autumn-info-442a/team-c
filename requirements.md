@@ -4,7 +4,7 @@
 1. The system should allow users to set a name before they enter a game lobby.
 2. The system should allow users to create a game lobby.
 3. The system should allow users to enter an existing lobby by typing in the code to that lobby.
-4. The system should display one or more Mad Lib titles as clickable options to the user.
+4. The system should display 5 Mad Lib titles as clickable options to the user so that they can select a game.
 5. The system should allow the user to start the game once they’ve selected a Mad Lib.
 6. The system should not allow more than 4 users in the same game lobby.
 
@@ -22,11 +22,11 @@
 
 ## After game
 17. The system should be able to generate the completed Mad Lib using accumulated user inputs.
-18. The system should format user inputs to properly fit within the Mad Lib with regard to appropriate punctuation and capitalization.
+18. The system should format user inputs to properly fit within the Mad Lib with regard to appropriate punctuation and capitalization by making removing any punctuation and making all words lowercase.
 19. The system should display the final result to all users when all inputs have been received.
 20. The system should censor inappropriate language with asterisks.
 21. The system should allow users to replay the same activity with the same game lobby.
-22. The system should prompt the users to read the final story to each other. 
+22. The system should display a prompt on the screen to encourage users to read the final story to each other.
 
 ## Compatibility
 23. The system should allow users to fully interact with it using any browser on any device.

@@ -22,7 +22,7 @@
 
 ## After game
 17. The system should be able to generate the completed Mad Lib using accumulated user inputs.
-18. The system should format user inputs to properly fit within the Mad Lib with regard to appropriate punctuation and capitalization by making removing any punctuation and making all words lowercase.
+18. The system should format user inputs to properly fit within the Mad Lib with regard to appropriate punctuation and capitalization by removing any punctuation and making all words lowercase.
 19. The system should display the final result to all users when all inputs have been received.
 20. The system should censor inappropriate language with asterisks.
 21. The system should allow users to replay the same activity with the same game lobby.

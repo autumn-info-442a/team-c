@@ -28,4 +28,5 @@ At the conclusion of the round, all users will click “FINISH” and the comple
 After the game is over, users will have the option to either start another game or exit the game lobby. If all players in the game are idle for 20 minutes or more, the game session will be timed out.
 
 **Logo:**
+
 ![children together logo](imgs/children.png)

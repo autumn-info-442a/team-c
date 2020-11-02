@@ -10,6 +10,7 @@
 7. The system should store the Mad Libs templates sourced from the [Mad Libs website](https://www.madlibs.com/) and the team's own creations.
 8. The system should credit the Mad Libs templates that it gets from the [Mad Libs website](https://www.madlibs.com/).
 9. The system should display Mad Libs templates handpicked by the team in alphabetical order by title.
+10. The system should display to the players which other players are in the game lobby.
 
 ## During game
 10. The system should be able to receive text input from every player in the game.

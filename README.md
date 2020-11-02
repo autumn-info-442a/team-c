@@ -27,6 +27,8 @@ At the conclusion of the round, all users will click “FINISH” and the comple
 
 After the game is over, users will have the option to either play another game or exit the game lobby. If all players in the game are idle for 20 minutes or more, the game session will be timed out.
 
+Link to our visual concept: https://www.figma.com/file/MIvRqZRluVFYyts6jWtfBP/442-Mad-Libs?node-id=0%3A1
+
 **Logo:**
 
 ![children together logo](imgs/children.png)

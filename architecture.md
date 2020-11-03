@@ -70,7 +70,7 @@
 - The **ResponseController** communicates with the view. It communicates the following:
     - The **ResponseController** can send a combination of the Mad Libs template with all the responses from user inputs to the **ResultView**.
 - The **GameController** communicates with the view. It communicates the following:
-    - The **GameController** can signal that the game is over, allowing the **ResultView** to load
+    - The **GameController** can signal that the game is over, allowing the **ResultView** to load.
     - The **GameController** can reset the game state when the **ResultView** says that the host player has chosen to replay the game.
 
 ## Controllers
@@ -87,7 +87,6 @@
 - The **PromptView** communicates with the controller. It communicates the following:
     - The **PromptView** can send the responses as user input to the **ResponseController**.
 - The **ResultView** communicates with the model. It communicates the following:
-    - The **ResultView** can load when the **GameController** signals that the game is over.
     - The **ResultView** can display all the inputs received from the **ResponseController**.
 
 **GameController**
@@ -99,6 +98,7 @@
     - The **OptionView** can send the Mad Libs title the host player has chosen to the **GameController.**
     - The **OptionView** can ask the **GameController** to start the game when the host player chooses to start the game.
 - The **ResultView** communicates with the controller. It communicates the following:
+    - The **ResultView** can load when the **GameController** signals that the game is over.
     - The **ResultView** can ask the **GameController** to reset the game state when the host player chooses to replay the game.
 
 **SessionController**

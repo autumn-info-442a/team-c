@@ -1,6 +1,7 @@
 [build]
     command = "yarn build"
-    publish = "out"
+    functions = "out_functions"
+    publish = "out_publish"
     base = "/madlibs-site"
 
 [[redirects]]

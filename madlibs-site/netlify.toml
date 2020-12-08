@@ -1,7 +1,7 @@
 [build]
     command = "yarn build"
     publish = "/build"
-    base = "/"
+    base = "/madlibs-site"
 
 [[redirects]]
     from = "/*/"

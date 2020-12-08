@@ -1,8 +1,10 @@
 import Lobby from "../../components/Lobby";
+import Game from "../../components/Game";
 
 const GameLobby = () => {
     return (
-        <Lobby/>
+        <Lobby/>,
+        <Game/>
     )
 }
 

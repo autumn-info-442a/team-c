@@ -1,5 +1,5 @@
 [build]
-    command = "yarn build"
+    command = "yarn build && yarn export"
     publish = "/build"
     base = "/madlibs-site"
 

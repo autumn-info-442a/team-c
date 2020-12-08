@@ -3,7 +3,7 @@ import Head from 'next/head';
 import fire from '../config/fire-config';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css'
-import Game from './components/Game.js'
+import Game from '../components/Game.js'
 
 const Home = () => {
     const [users, setUsers] = useState([]);

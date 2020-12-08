@@ -1,9 +1,8 @@
 [build]
     command = "yarn build"
-    publish = "build"
     base = "/madlibs-site"
 
 [[redirects]]
-    from = "/index.js"
-    to = "/index.html"
+    from = "/index.html"
+    to = "/index.js"
     status = 200

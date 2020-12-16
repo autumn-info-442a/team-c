@@ -1,30 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MadLibs
 
-## Getting Started
+This is an example project that can be used as a starting point to create your own Vaadin application with Spring Boot.
+It contains all the necessary configuration and some placeholder files to get you started.
 
-First, run the development server:
+The project is a standard Maven project, so you can import it to your IDE of choice. [Read more how to set up a development environment](https://vaadin.com/docs/v14/flow/installing/installing-overview.html) for Vaadin projects (Windows, Linux, macOS). 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This project was created from https://start.vaadin.com.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running and debugging the applcation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Running the application from the command line.
+To run from the command line, use `mvn` and open http://localhost:8080 in your browser.
 
-## Learn More
+### Running and debugging the application in Intellij IDEA
+- Locate the Application.java class in the Project view. It is in the src folder, under the main package's root.
+- Right click on the Application class
+- Select "Debug 'Application.main()'" from the list
 
-To learn more about Next.js, take a look at the following resources:
+After the application has started, you can view your it at http://localhost:8080/ in your browser. 
+You can now also attach break points in code for debugging purposes, by clicking next to a line number in any source file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Running and debugging the application in Eclipse
+- Locate the Application.java class in the Package explorer. It is in `src/main/java`, under the main package.
+- Right click on the file and select `Debug As` --> `Java Application`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Do not worry if the debugger breaks at a `SilentExitException`. This is a Spring Boot feature and happens on every startup.
 
-## Deploy on Vercel
+After the application has started, you can view your it at http://localhost:8080/ in your browser.
+You can now also attach break points in code for debugging purposes, by clicking next to a line number in any source file.
+## Project structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `MainView.java` in `src/main/java` contains the navigation setup. It uses [App Layout](https://vaadin.com/components/vaadin-app-layout).
+- `views` package in `src/main/java` contains the server-side Java views of your application.
+- `views` folder in `frontend/src/` contains the client-side JavaScript views of your application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## What next?
+
+[vaadin.com](https://vaadin.com) has lots of material to help you get you started:
+
+- Follow the tutorials in [vaadin.com/tutorials](https://vaadin.com/tutorials). Especially [vaadin.com/tutorials/getting-started-with-flow](https://vaadin.com/tutorials/getting-started-with-flow) is good for getting a grasp of the basic Vaadin concepts.
+- Read the documentation in [vaadin.com/docs](https://vaadin.com/docs).
+- For a bigger Vaadin application example, check out the Full Stack App starter from [vaadin.com/start](https://vaadin.com/start).

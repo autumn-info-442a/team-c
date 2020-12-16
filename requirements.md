@@ -5,7 +5,7 @@
 2. `complete` The system should allow users to create a game lobby.
 3. `complete` The system should allow users to enter an existing lobby by typing in the code to that lobby.
 4. `complete` The system should display 5 Mad Lib titles as clickable options to the user so that they can select a game.
-    - This is complete, but just wanted to note that it is shown as a dropdown instead of a list of buttons as originally intended. A dropdown forces a user to select an option and is still clickable.
+    - This is complete, but just wanted to note that it is shown as a dropdown instead of a list of buttons as originally intended. A dropdown is still clickable.
 5. `complete` The system should allow the user who created the lobby to start the game once they’ve selected a Mad Lib.
 6. `complete` The system should not allow more than 4 users in the same game lobby.
 7. `complete` The system should store the Mad Libs templates sourced from the [Mad Libs website](https://www.madlibs.com/) and the team's own creations.
@@ -13,7 +13,7 @@
     - This is complete because we didn't use any Mad Libs templates from the website, so we did not have to credit the website.
 9. `complete` The system should display Mad Libs templates handpicked by the team in alphabetical order by title.
 10. `complete` The system should display to the players which other players are in the game lobby.
-    - This is complete, but just wanted to note that it shows as a modal instead of a section on the page as originally intended.
+    - This is complete, but just wanted to note that it shows as a temporary popup instead of a section on the page as originally intended.
 
 ## During game
 11. `complete` The system should be able to receive text input from every player in the game.
@@ -32,8 +32,7 @@
 22. `complete` The system should be able to generate the completed Mad Lib using accumulated user inputs.
 23. `complete` The system should format user inputs to properly fit within the Mad Lib with regard to appropriate punctuation and capitalization by removing any punctuation and making all words lowercase.
 24. `complete` The system should display the final result to all users when all inputs have been received.
-25. `??incomplete` The system should allow users to replay Mad Libs with the same game lobby.
-    - This was lower priority, so we decided to forgo it as a user is still able to play with the same players by simply creating a new game lobby. It only takes two extra clicks per player versus one.
+25. `complete` The system should allow users to replay Mad Libs with the same game lobby.
 26. `complete` The system should display a prompt on the screen to encourage users to read the final story to each other.
 
 ## Compatibility
@@ -41,4 +40,5 @@
 
 ## Sessions
 28. `complete` The system should be able to host one or more game lobbies.
-29. `??complete` The system should automatically disconnect a session if all players are idle for at least 20 minutes.
+29. `complete` The system should automatically disconnect a session if all players are idle for at least 20 minutes.
+    - This is actually supposed to refer to the lobby which is why it says 'all players'. You can't go back to a lobby once you exit the page though, so this is more for storage than user purposes.

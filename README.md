@@ -1,5 +1,6 @@
 # team-c
-INFO 442 Team C
+INFO 442 Team C  
+http://info442-madlibs.herokuapp.com/
 
 **Team Member Names and Roles:**
 - Harkiran Saluja, *Designer*
